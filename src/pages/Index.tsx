@@ -20,22 +20,21 @@ const Index = () => {
         <RadialStatCard
           title="Successful transaction"
           percentage={68}
-          primaryColor="hsl(var(--chart-blue))"
+          primaryColor="hsl(var(--chart-cyan))"
           secondaryColor="hsl(var(--chart-gray))"
           legend={[
-            { color: "hsl(var(--chart-blue))", label: "131,432" },
+            { color: "hsl(var(--chart-cyan))", label: "131,432" },
             { color: "hsl(var(--chart-gray))", label: "193,283" },
           ]}
         />
 
-        {/* Returning customer rate - hidden on small, shown on md+ to fill grid */}
         <RadialStatCard
           title="Returning customer rate"
           percentage={82}
-          primaryColor="hsl(var(--chart-orange))"
+          primaryColor="hsl(var(--chart-yellow))"
           secondaryColor="hsl(var(--chart-gray))"
           legend={[
-            { color: "hsl(var(--chart-orange))", label: "20,053" },
+            { color: "hsl(var(--chart-yellow))", label: "20,053" },
             { color: "hsl(var(--chart-gray))", label: "25,004" },
           ]}
         />
@@ -43,10 +42,10 @@ const Index = () => {
         <RadialStatCard
           title="Sales Target Completed"
           percentage={34}
-          primaryColor="hsl(var(--chart-pink))"
+          primaryColor="hsl(var(--chart-red))"
           secondaryColor="hsl(var(--chart-gray))"
           legend={[
-            { color: "hsl(var(--chart-pink))", label: "9872" },
+            { color: "hsl(var(--chart-red))", label: "9872" },
             { color: "hsl(var(--chart-gray))", label: "29,035" },
           ]}
         />
