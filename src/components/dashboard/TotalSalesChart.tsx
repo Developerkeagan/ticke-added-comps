@@ -21,13 +21,13 @@ const defaultData: SalesDataPoint[] = [
 ];
 
 const barColors = [
-  "hsl(var(--chart-orange))",
-  "hsl(var(--chart-yellow))",
-  "hsl(var(--chart-blue))",
+  "hsl(var(--chart-primary))",
   "hsl(var(--chart-cyan))",
-  "hsl(var(--chart-pink))",
-  "hsl(var(--chart-blue))",
-  "hsl(var(--chart-orange))",
+  "hsl(var(--chart-yellow))",
+  "hsl(var(--chart-green))",
+  "hsl(var(--chart-red))",
+  "hsl(var(--chart-primary))",
+  "hsl(var(--chart-cyan))",
 ];
 
 const TotalSalesChart = ({

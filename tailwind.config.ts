@@ -52,11 +52,11 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         chart: {
-          blue: "hsl(var(--chart-blue))",
-          orange: "hsl(var(--chart-orange))",
-          yellow: "hsl(var(--chart-yellow))",
+          primary: "hsl(var(--chart-primary))",
           cyan: "hsl(var(--chart-cyan))",
-          pink: "hsl(var(--chart-pink))",
+          yellow: "hsl(var(--chart-yellow))",
+          green: "hsl(var(--chart-green))",
+          red: "hsl(var(--chart-red))",
           gray: "hsl(var(--chart-gray))",
         },
         sidebar: {

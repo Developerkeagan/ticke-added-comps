@@ -68,14 +68,14 @@ const RevenueChart = ({
             <Area
               type="monotone"
               dataKey="value"
-              stroke="hsl(var(--chart-orange))"
+              stroke="hsl(var(--chart-cyan))"
               strokeWidth={3}
               fill="url(#revenueGradient)"
               dot={false}
               activeDot={{
                 r: 6,
                 fill: "hsl(var(--foreground))",
-                stroke: "hsl(var(--chart-orange))",
+                stroke: "hsl(var(--chart-cyan))",
                 strokeWidth: 2,
               }}
             />
